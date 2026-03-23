@@ -5,6 +5,7 @@
 #include <sys/socket.h>
 // #include <netinet/in.h>
 #include <sys/un.h>
+#include "routing_table.h"
 
 #define UNIX_SOCKET_PATH "./dgram_socket"
 #define BUFFER_SIZE 1024
